@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "217170600245",
+    "firebase_url": "https://perfectush.firebaseio.com",
+    "project_id": "perfectush",
+    "storage_bucket": "perfectush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217170600245:android:be653d64f4eee2f5",
+        "android_client_info": {
+          "package_name": "com.devicelocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217170600245-rjdg8ebg4ajflav5vb11s0i2jhd071no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBny67XlhSZEh0txRGqfU-UWNBgH78WnH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
