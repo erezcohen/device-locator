@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { StyleSheet, Button, View } from 'react-native';
 import FCM, { FCMEvent } from 'react-native-fcm';
 
+// Send notifications from
+// https://console.firebase.google.com/project/perfectush/notification
 
 export default class App extends Component<{}> {
 
@@ -18,7 +20,7 @@ export default class App extends Component<{}> {
   }
 
   componentDidMount() {
-    this.notificationListener = FCM.on(FCMEvent.Notification, async (notif) => {
+    this.notificationListener = FCM.on(FCMEvent.Notification, async () => {
       this.setState({active: true});
     });
   }
